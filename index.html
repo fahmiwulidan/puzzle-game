@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"/>
+  </head>
+  <body>
+    <br/><br/>
+    <div id="notification" class="notification"></div>
+    <div id="winNotification" class="win-notification"></div>
+    <div id="kotak">
+      <input type="button" id="angka1" value="1" onclick="btnClick(1)" />
+      <input type="button" id="angka2" value="2" onclick="btnClick(2)" />
+      <input type="button" id="angka3" value="3" onclick="btnClick(3)" />
+      <input type="button" id="angka4" value="4" onclick="btnClick(4)" />
+      <input type="button" id="angka5" value="5" onclick="btnClick(5)" />
+      <input type="button" id="angka6" value="6" onclick="btnClick(6)" />
+      <input type="button" id="angka7" value="7" onclick="btnClick(7)" />
+      <input type="button" id="angka8" value="8" onclick="btnClick(8)" />
+      <input type="button" id="angka9" value="" onclick="btnClick(9)" />
+    </div>
+    <button id="acakButton" onclick="acak()">Acak Angka</button>
+    <br/><br/>
+    <footer>
+      <p>© 2024 fahmii00. All rights reserved.</p>
+      <div class="social-icon">
+        <a href="https://www.instagram.com/fahmiw50_" class="social-icon"><i class="bx bxl-instagram" style="font-size: 30px; color: #888"></i></a>
+        <a href="https://www.facebook.com/fahmiwulidan" class="social-icon"><i class="bx bxl-facebook" style="font-size: 30px; color: #888"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=62085719916327" class="social-icon"><i class="bx bxl-whatsapp" style="font-size: 30px; color: #888"></i></a>
+      </div>
+    </footer>
+    <script src="fungsi.js"></script>
+  </body>
+</html>
