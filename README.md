@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>8-Puzzle Game - Sliding Number Puzzle</h1>
+  <h1>8 Puzzle Game - Sliding Number Puzzle</h1>
   <p><b>Aplikasi Game Geser Angka Interaktif Berbasis Web 3x3</b></p>
 
   [![Vercel Deployment](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://puzzle-game-eight-delta.vercel.app)
